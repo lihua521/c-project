@@ -63,10 +63,10 @@ int main()
 
             for (int i = 0; i < index; i++)
             {
-                printf("%c\n,arr[i]");
+                printf("%c\n",arr[i]);
             }
             printf("dianjihuichejixu\n");
-            char x;
+            char x
             scanf("%c", &x);
             scanf("%c", &x);
         }
