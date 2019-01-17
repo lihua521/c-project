@@ -61,7 +61,7 @@ int main()
         {
             printf("xianshiminganzifu\n");
 
-            for (int i = 0; i < index; i++)
+            for (int i = 0; i<index; i++)
             {
                 printf("%c\n",arr[i]);
             }
@@ -76,7 +76,7 @@ int main()
             char neirong[1000];
             scanf("%s", neirong);
 
-            for (int i 0; 1; i++)
+            for (int i=0; 1; i++)
             {
                 if (neirong[i] == '\0')
                 {
@@ -98,7 +98,7 @@ int main()
         }
         if (code == 5)
         {
-            printf("tuichu")
+            printf("tuichu");
             break;
         }
     }
