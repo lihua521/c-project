@@ -61,7 +61,8 @@ int main()
         {
             printf("xianshiminganzifu\n");
 
-            for(int i=0;i<index;i++){
+            for (int i = 0; i < index; i++)
+            {
                 printf("%c\n,arr[i]");
             }
             printf("dianjihuichejixu\n");
@@ -71,6 +72,29 @@ int main()
         }
         if (code == 4)
         {
+            printf("tihuanzifu\n");
+            char neirong[1000];
+            scanf("%s", neirong);
+
+            for (int i 0; 1; i++)
+            {
+                if (neirong[i] == '\0')
+                {
+                    break;
+                }
+                if (isMingan(neirong[i]) == 1)
+                {
+                    neirong[i] = '*';
+                }
+                printf("%c", neirong[i]);
+            }
+
+            printf("\n");
+
+            printf("dianjihuichejixu\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (code == 5)
         {
