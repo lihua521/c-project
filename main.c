@@ -66,7 +66,7 @@ int main()
                 printf("%c\n",arr[i]);
             }
             printf("dianjihuichejixu\n");
-            char x
+            char x;
             scanf("%c", &x);
             scanf("%c", &x);
         }
