@@ -1,23 +1,5 @@
 #include <stdio.h>
-char arr[1000];
-int index = 0;
-int isMingan(char x)
-{
-    int count = 0;
-    for (int i = 0;i<index;i++)
-    {
-        if(x == arr[i])
-        {
-            count++;
-        }
-    }
-    if(count == 0)
-    {
-        return 0;
-    }else{
-        return 1;
-    }
-}
+
 int main(){
 
     printf("mingancixitong\n");
@@ -32,9 +14,10 @@ int main(){
         scanf("%d",&code);
         
         if(code == 1){
+
         }
         if(code == 2){
-            
+
         }
         if(code == 3){
             
